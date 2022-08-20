@@ -35,7 +35,7 @@ spec:
       volumes:
         - name: smb
           persistentVolumeClaim:
-            claimName: pvc-smb
+            claimName: pvc-demo
       containers:
       - name: demo-webapp
         image: nginx
